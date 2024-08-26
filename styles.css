@@ -1,0 +1,60 @@
+body {
+    color: rgb(253, 253, 253);
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(248, 251, 255);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+}
+
+.chamada {
+    background: rgb(238, 77, 138);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.rayca-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.rayca {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.rayca-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.rayca-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.rayca h2 {
+    color: rgb(255, 255, 255);
+}
